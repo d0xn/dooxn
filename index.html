@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자기소개서</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px; /* 너비를 더 넓게 조정하여 이미지가 잘 보이도록 */
+            margin: 20px auto;
+            padding: 20px;
+            background-image: url('https://example.com/path-to-your-airport-image.jpg'); /* 공항 이미지 URL */
+            background-size: cover;
+            background-position: center;
+            color: #333; /* 텍스트 색상 */
+        }
+        .intro-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 50px;
+        }
+        .intro-box {
+            width: 30%;
+            background-color: rgba(255, 255, 255, 0.9); /* 배경색을 흰색에 투명도 추가 */
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            margin-bottom: 20px; /* 각 상자 아래 여백 추가 */
+        }
+        .intro-box:not(:last-child) {
+            margin-right: 20px; /* 마지막 상자를 제외하고 오른쪽 여백 추가 */
+        }
+        .intro-box h2 {
+            margin-top: 0;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        p {
+            text-indent: 20px;
+        }
+        .person-illustration {
+            width: 150px;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>자기소개서</h1>
+
+    <img src="https://example.com/path-to-your-person-illustration.jpg" alt="Person Illustration" class="person-illustration">
+
+    <div class="intro-container">
+        <div class="intro-box">
+            <h2>자기소개</h2>
+            <p>이름: 강동연</p>
+            <p>나이: 18살</p>
+            <p>학교: 사동고등학교</p>
+            <p>MBTI: ISTP</p>
+        </div>
+
+        <div class="intro-box">
+            <h2>좋아하는 것</h2>
+            <p>음악 듣기</p>
+            <p>악기 연주하기</p>
+            <p>제2 외국어 공부하기</p>
+        </div>
+
+        <div class="intro-box">
+            <h2>관심사</h2>
+            <p>승무원이란 무엇인지 알아보는 것</p>
+            <p>꾸미기</p>
+        </div>
+    </div>
+</body>
+</html>
